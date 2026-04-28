@@ -1,0 +1,41 @@
+{
+  "brandName": "BALAJI RAMESH",
+  "brandTitle": "Junior Analyst (Merchant Risk)",
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/balajiramesh005",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/balajiramesh005",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:balajiramesh005@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "copyright": "Balaji Ramesh",
+  "year": "2026"
+}

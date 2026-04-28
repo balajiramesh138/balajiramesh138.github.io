@@ -1,0 +1,146 @@
+{
+  "heading": "Projects",
+  "projects": [
+    {
+      "name": "Master’s Capstone: CPU-Based 3D Reconstruction Pipeline using COLMAP & OpenMVS",
+      "description": "Developed a full photogrammetry pipeline for sparse and dense 3D reconstruction on a CPU-based environment. Rebuilt OpenMVS from source to resolve CUDA/GPU incompatibility. Automated the complete pipeline in Python from SIFT feature extraction to dense reconstruction, generating 417K+ point clouds from high-res images.",
+      "technologies": [
+        "Python",
+        "COLMAP",
+        "OpenMVS",
+        "SIFT",
+        "MeshLab",
+        "Open3D"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "data-engineering-project",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/data-engineering-project",
+      "githubUrl": "https://github.com/balajiramesh138/data-engineering-project"
+    },
+    {
+      "name": "realtime-stock-market-pipeline",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "HTML",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/realtime-stock-market-pipeline",
+      "githubUrl": "https://github.com/balajiramesh138/realtime-stock-market-pipeline"
+    },
+    {
+      "name": "greenpulse-energy-monitoring",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [
+        "TypeScript",
+        "Python"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring",
+      "githubUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring"
+    },
+    {
+      "name": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "technologies": [],
+      "liveUrl": "https://github.com/balajiramesh138/contribution-history",
+      "githubUrl": "https://github.com/balajiramesh138/contribution-history"
+    },
+    {
+      "name": "hospital_readmission_prediction",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [],
+      "liveUrl": "https://github.com/balajiramesh138/hospital_readmission_prediction",
+      "githubUrl": "https://github.com/balajiramesh138/hospital_readmission_prediction"
+    },
+    {
+      "name": "end-to-end-pipeline-snowflake-dbt-tableau",
+      "description": "Modern web application demonstrating clean code principles",
+      "technologies": [],
+      "liveUrl": "https://github.com/balajiramesh138/end-to-end-pipeline-snowflake-dbt-tableau",
+      "githubUrl": "https://github.com/balajiramesh138/end-to-end-pipeline-snowflake-dbt-tableau"
+    },
+    {
+      "name": "DV-Activity-7",
+      "description": "GitHub repository: DV-Activity-7",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/DV-Activity-7",
+      "githubUrl": "https://github.com/balajiramesh138/DV-Activity-7"
+    },
+    {
+      "name": "force-simulation",
+      "description": "GitHub repository: force-simulation",
+      "technologies": [
+        "Jupyter Notebook",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/force-simulation",
+      "githubUrl": "https://github.com/balajiramesh138/force-simulation"
+    },
+    {
+      "name": "Data-Viz-Activity-6",
+      "description": "GitHub repository: Data-Viz-Activity-6",
+      "technologies": [
+        "HTML",
+        "CSS"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/Data-Viz-Activity-6",
+      "githubUrl": "https://github.com/balajiramesh138/Data-Viz-Activity-6"
+    },
+    {
+      "name": "TSF-internship-tasks",
+      "description": "GitHub repository: TSF-internship-tasks",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/TSF-internship-tasks",
+      "githubUrl": "https://github.com/balajiramesh138/TSF-internship-tasks"
+    },
+    {
+      "name": "traffic-sign-classification",
+      "description": "GitHub repository: traffic-sign-classification",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/traffic-sign-classification",
+      "githubUrl": "https://github.com/balajiramesh138/traffic-sign-classification"
+    },
+    {
+      "name": "Diabetic-patient-prediction",
+      "description": "GitHub repository: Diabetic-patient-prediction",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/Diabetic-patient-prediction",
+      "githubUrl": "https://github.com/balajiramesh138/Diabetic-patient-prediction"
+    },
+    {
+      "name": "ML-project",
+      "description": "GitHub repository: ML-project",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/ML-project",
+      "githubUrl": "https://github.com/balajiramesh138/ML-project"
+    },
+    {
+      "name": "Data-Viz-Assignment-MA-Mapping",
+      "description": "GitHub repository: Data-Viz-Assignment-MA-Mapping",
+      "technologies": [],
+      "liveUrl": "https://github.com/balajiramesh138/Data-Viz-Assignment-MA-Mapping",
+      "githubUrl": "https://github.com/balajiramesh138/Data-Viz-Assignment-MA-Mapping"
+    }
+  ]
+}

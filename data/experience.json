@@ -1,0 +1,50 @@
+{
+  "heading": "My Journey",
+  "positions": [
+    {
+      "title": "Junior Analyst (Merchant Risk)",
+      "company": "Razorpay",
+      "startDate": "Jan 2022",
+      "endDate": "June 2023",
+      "description": "Designed scalable data pipelines using SQL and Python to aggregate and normalize transactional, merchant, and behavioral data for real-time risk analysis, reducing manual review dependencies by 60%. Created 150+ Looker reports within a year for different sales teams, impacting 200+ sales POCs. Witnessed a 350% increase in overall business and worked on lead scoring, CLTV, and marketing analytics. Partnered with engineering and product teams to integrate risk detection logic into payment processing, reducing fraud attempts by 25%. Investigated merchant-level risk cases (MIDs) involving abnormal volume surges or policy violations.",
+      "location": "",
+      "achievements": [
+        "Designed scalable data pipelines using SQL and Python to aggregate and normalize transactional, merchant, and behavioral data for real-time risk analysis, reducing manual review dependencies by 60%.",
+        "Created 150+ Looker reports within a year for different sales teams, impacting 200+ sales POCs.",
+        "Witnessed a 350% increase in overall business and worked on lead scoring, CLTV, and marketing analytics.",
+        "Partnered with engineering and product teams to integrate risk detection logic into payment processing, reducing fraud attempts by 25%.",
+        "Investigated merchant-level risk cases (MIDs) involving abnormal volume surges or policy violations."
+      ],
+      "technologies": [
+        "SQL",
+        "Python",
+        "Looker"
+      ]
+    },
+    {
+      "title": "Machine learning Intern",
+      "company": "Technocolabs Softwares Inc.",
+      "startDate": "Oct 2020",
+      "endDate": "Jan 2021",
+      "description": "Conducted exploratory data analysis (EDA) on large financial datasets to identify trends and risk indicators using Python libraries. Built and fine-tuned predictive models (Logistic Regression, Random Forest, ANN) for credit risk classification and fraud detection. Deployed machine learning models using Flask and Streamlit on Heroku for real-time predictions and dashboard visualizations.",
+      "location": "",
+      "achievements": [
+        "Conducted exploratory data analysis (EDA) on large financial datasets to identify trends and risk indicators using Python libraries.",
+        "Built and fine-tuned predictive models (Logistic Regression, Random Forest, ANN) for credit risk classification and fraud detection.",
+        "Deployed machine learning models using Flask and Streamlit on Heroku for real-time predictions and dashboard visualizations."
+      ],
+      "technologies": [
+        "Python",
+        "pandas",
+        "NumPy",
+        "seaborn",
+        "Logistic Regression",
+        "Random Forest",
+        "ANN",
+        "Flask",
+        "Streamlit",
+        "Heroku"
+      ]
+    }
+  ]
+}

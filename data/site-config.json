@@ -1,0 +1,32 @@
+{
+  "siteName": "Balaji Ramesh | Junior Analyst (Merchant Risk)",
+  "theme": "light",
+  "loaderInitials": [
+    "B",
+    "R"
+  ],
+  "metaDescription": "Balaji Ramesh — Junior Analyst (Merchant Risk). Portfolio showcasing professional experience, skills, and projects.",
+  "metaKeywords": "Balaji Ramesh, Junior Analyst (Merchant Risk), Portfolio",
+  "progressCheckpoints": [
+    {
+      "id": "hero",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "experience",
+      "label": "Journey"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ]
+}

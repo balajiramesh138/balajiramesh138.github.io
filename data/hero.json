@@ -1,0 +1,127 @@
+{
+  "greeting": "Hi there!",
+  "name": "Balaji Ramesh",
+  "description": "Based in Boston, MA, I'm a Junior Analyst (Merchant Risk) with a passion for solving complex problems and delivering impactful solutions.",
+  "tagline": "Junior Analyst (Merchant Risk)",
+  "avatarUrl": "",
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/balajiramesh005",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fab fa-linkedin",
+      "url": "https://www.linkedin.com/in/balajiramesh005",
+      "label": "LinkedIn"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:balajiramesh005@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "techBadges": [
+    {
+      "icon": "fab fa-python",
+      "label": "Python"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "R"
+    },
+    {
+      "icon": "fas fa-database",
+      "label": "SQL"
+    },
+    {
+      "icon": "fas fa-microchip",
+      "label": "C++"
+    },
+    {
+      "icon": "fas fa-microchip",
+      "label": "C"
+    },
+    {
+      "icon": "fab fa-python",
+      "label": "Flask"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Streamlit"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "PySpark"
+    }
+  ],
+  "terminalCommands": {
+    "about": {
+      "title": "About Me",
+      "content": "Junior Analyst (Merchant Risk) with 2+ years of experience building scalable web applications.",
+      "highlights": [
+        "Working with Python",
+        "Working with R",
+        "Working with SQL"
+      ]
+    },
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "C++",
+      "C",
+      "Flask",
+      "Streamlit",
+      "PySpark",
+      "Airflow",
+      "MySQL",
+      "Cassandra",
+      "HBase",
+      "Hadoop",
+      "Apache spark",
+      "Hive",
+      "Kafka"
+    ],
+    "experience": [
+      {
+        "company": "Razorpay",
+        "title": "Junior Analyst (Merchant Risk)",
+        "period": "Jan 2022 – June 2023",
+        "location": ""
+      },
+      {
+        "company": "Technocolabs Softwares Inc.",
+        "title": "Machine learning Intern",
+        "period": "Oct 2020 – Jan 2021",
+        "location": ""
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science",
+        "institution": "University of Massachusetts Dartmouth",
+        "period": "May 2025"
+      },
+      {
+        "degree": "Bachelor of Engineering",
+        "institution": "Acharya Institute of technology Banglore | India",
+        "period": "July 2021"
+      }
+    ],
+    "contact": {
+      "email": "balajiramesh005@gmail.com",
+      "website": "",
+      "github": "https://github.com/balajiramesh005",
+      "linkedin": "https://www.linkedin.com/in/balajiramesh005"
+    }
+  },
+  "terminalLines": [
+    "$ whoami",
+    "Balaji Ramesh",
+    "$ cat role.txt",
+    "Junior Analyst (Merchant Risk)",
+    "$ ls skills/",
+    "Python  R  SQL  C++  C"
+  ]
+}

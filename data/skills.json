@@ -1,0 +1,169 @@
+{
+  "heading": "SKILLS",
+  "categories": [
+    {
+      "name": "Languages",
+      "icon": "fas fa-code",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "R",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "SQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "C++",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "C",
+          "icon": "fas fa-microchip"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "icon": "fas fa-layer-group",
+      "items": [
+        {
+          "name": "Flask",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "Streamlit",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "PySpark",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Airflow",
+          "icon": "fas fa-wind"
+        }
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-tools",
+      "items": [
+        {
+          "name": "MySQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "Cassandra",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "HBase",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Hadoop",
+          "icon": "fas fa-server"
+        },
+        {
+          "name": "Apache spark",
+          "icon": "fas fa-bolt"
+        },
+        {
+          "name": "Hive",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Kafka",
+          "icon": "fas fa-stream"
+        },
+        {
+          "name": "AWS (S3, Glue, Redshift, Athena, Lambda, IAM, EMR, Kinesis, DynamoDB)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Power BI",
+          "icon": "fas fa-chart-bar"
+        },
+        {
+          "name": "Tableau",
+          "icon": "fas fa-chart-pie"
+        },
+        {
+          "name": "Matplotlib",
+          "icon": "fas fa-chart-area"
+        },
+        {
+          "name": "Seaborn",
+          "icon": "fas fa-chart-area"
+        },
+        {
+          "name": "Looker",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Excel",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "COLMAP",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "OpenMVS",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "MeshLab",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Open3D",
+          "icon": "fas fa-circle"
+        }
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-cogs",
+      "items": [
+        {
+          "name": "Regression",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Classification",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Clustering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Decision Trees",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Random Forests",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Neural Networks",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "3D Reconstruction",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Photogrammetry",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    }
+  ]
+}

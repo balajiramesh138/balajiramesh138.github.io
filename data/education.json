@@ -1,0 +1,25 @@
+{
+  "heading": "EDUCATION",
+  "entries": [
+    {
+      "degree": "Master of Science",
+      "institution": "University of Massachusetts Dartmouth",
+      "startDate": "2025",
+      "endDate": "",
+      "gpa": "3.75/4.0",
+      "honors": []
+    },
+    {
+      "degree": "Bachelor of Engineering",
+      "institution": "Acharya Institute of technology Banglore | India",
+      "startDate": "2021",
+      "endDate": "",
+      "gpa": "7.46/10",
+      "honors": []
+    }
+  ],
+  "certifications": [
+    "AWS Certified Data Engineer - Associate"
+  ],
+  "languages": []
+}
