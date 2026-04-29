@@ -5,164 +5,74 @@
       "name": "Languages",
       "icon": "fas fa-code",
       "items": [
-        {
-          "name": "Python",
-          "icon": "fab fa-python"
-        },
-        {
-          "name": "R",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "SQL",
-          "icon": "fas fa-database"
-        },
-        {
-          "name": "C++",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "C",
-          "icon": "fas fa-microchip"
-        }
+        { "name": "Python", "icon": "fab fa-python" },
+        { "name": "SQL", "icon": "fas fa-database" },
+        { "name": "R", "icon": "fas fa-chart-line" },
+        { "name": "C++", "icon": "fas fa-microchip" },
+        { "name": "C", "icon": "fas fa-microchip" }
       ]
     },
     {
-      "name": "Frameworks & Libraries",
-      "icon": "fas fa-layer-group",
+      "name": "Databases",
+      "icon": "fas fa-database",
       "items": [
-        {
-          "name": "Flask",
-          "icon": "fab fa-python"
-        },
-        {
-          "name": "Streamlit",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "PySpark",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Airflow",
-          "icon": "fas fa-wind"
-        }
+        { "name": "MySQL", "icon": "fas fa-database" },
+        { "name": "Snowflake", "icon": "fas fa-snowflake" },
+        { "name": "Cassandra", "icon": "fas fa-server" },
+        { "name": "HBase", "icon": "fas fa-server" },
+        { "name": "DynamoDB", "icon": "fas fa-database" }
       ]
     },
     {
-      "name": "Tools & Platforms",
-      "icon": "fas fa-tools",
+      "name": "Big Data & Pipelines",
+      "icon": "fas fa-stream",
       "items": [
-        {
-          "name": "MySQL",
-          "icon": "fas fa-database"
-        },
-        {
-          "name": "Cassandra",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "HBase",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Hadoop",
-          "icon": "fas fa-server"
-        },
-        {
-          "name": "Apache spark",
-          "icon": "fas fa-bolt"
-        },
-        {
-          "name": "Hive",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Kafka",
-          "icon": "fas fa-stream"
-        },
-        {
-          "name": "AWS (S3, Glue, Redshift, Athena, Lambda, IAM, EMR, Kinesis, DynamoDB)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Power BI",
-          "icon": "fas fa-chart-bar"
-        },
-        {
-          "name": "Tableau",
-          "icon": "fas fa-chart-pie"
-        },
-        {
-          "name": "Matplotlib",
-          "icon": "fas fa-chart-area"
-        },
-        {
-          "name": "Seaborn",
-          "icon": "fas fa-chart-area"
-        },
-        {
-          "name": "Looker",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Excel",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "COLMAP",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "OpenMVS",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "MeshLab",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Open3D",
-          "icon": "fas fa-circle"
-        }
+        { "name": "Apache Spark", "icon": "fas fa-bolt" },
+        { "name": "PySpark", "icon": "fas fa-bolt" },
+        { "name": "Hadoop", "icon": "fas fa-server" },
+        { "name": "Hive", "icon": "fas fa-database" },
+        { "name": "Kafka", "icon": "fas fa-stream" },
+        { "name": "Airflow", "icon": "fas fa-wind" },
+        { "name": "dbt", "icon": "fas fa-layer-group" }
       ]
     },
     {
-      "name": "Technical Skills",
-      "icon": "fas fa-cogs",
+      "name": "AWS Cloud",
+      "icon": "fab fa-aws",
       "items": [
-        {
-          "name": "Regression",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Classification",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "Clustering",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Decision Trees",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Random Forests",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Neural Networks",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "3D Reconstruction",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Photogrammetry",
-          "icon": "fas fa-chart-line"
-        }
+        { "name": "S3", "icon": "fab fa-aws" },
+        { "name": "Glue", "icon": "fab fa-aws" },
+        { "name": "Redshift", "icon": "fab fa-aws" },
+        { "name": "Athena", "icon": "fab fa-aws" },
+        { "name": "Lambda", "icon": "fab fa-aws" },
+        { "name": "EMR", "icon": "fab fa-aws" },
+        { "name": "Kinesis", "icon": "fab fa-aws" },
+        { "name": "DynamoDB", "icon": "fab fa-aws" },
+        { "name": "IAM", "icon": "fab fa-aws" }
+      ]
+    },
+    {
+      "name": "Data Visualization & BI",
+      "icon": "fas fa-chart-pie",
+      "items": [
+        { "name": "Tableau", "icon": "fas fa-chart-pie" },
+        { "name": "Power BI", "icon": "fas fa-chart-bar" },
+        { "name": "Looker", "icon": "fas fa-chart-line" },
+        { "name": "Matplotlib", "icon": "fas fa-chart-area" },
+        { "name": "Seaborn", "icon": "fas fa-chart-area" },
+        { "name": "Excel (VLOOKUP, PivotTables)", "icon": "fas fa-table" }
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "fas fa-brain",
+      "items": [
+        { "name": "Regression", "icon": "fas fa-chart-line" },
+        { "name": "Classification", "icon": "fas fa-sitemap" },
+        { "name": "Clustering", "icon": "fas fa-object-group" },
+        { "name": "Decision Trees", "icon": "fas fa-tree" },
+        { "name": "Random Forests", "icon": "fas fa-tree" },
+        { "name": "Neural Networks", "icon": "fas fa-brain" }
       ]
     }
   ]

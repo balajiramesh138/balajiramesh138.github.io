@@ -298,18 +298,33 @@
     if (!timelineList || !data.positions) return;
 
     timelineList.innerHTML = data.positions
-      .map(
-        (pos) => `
+      .map((pos) => {
+        const bgStyle = pos.logoBg ? ` style="background:${escapeHtml(pos.logoBg)}"` : '';
+        let logoInner = '';
+        if (pos.logoUrl) {
+          logoInner = `<img src="${escapeHtml(pos.logoUrl)}" alt="${escapeHtml(pos.company || '')} logo" class="timeline-logo-img" loading="lazy">`;
+        } else if (pos.monogram) {
+          logoInner = `<span class="timeline-logo-monogram">${escapeHtml(pos.monogram)}</span>`;
+        } else if (pos.company) {
+          const initials = pos.company.split(' ').map((w) => w[0]).join('').toUpperCase().slice(0, 2);
+          logoInner = `<span class="timeline-logo-monogram">${escapeHtml(initials)}</span>`;
+        }
+        const logoHtml = logoInner ? `<div class="timeline-logo"${bgStyle}>${logoInner}</div>` : '';
+        const locationHtml = pos.location
+          ? `<p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location)}</p>`
+          : '';
+        return `
       <div class="timeline-item-flat">
         <div class="timeline-dot"></div>
+        ${logoHtml}
         <div class="timeline-content-flat">
           <h4 class="timeline-title">${escapeHtml(pos.title)} @ ${escapeHtml(pos.company)}</h4>
           <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
           <p class="timeline-description">${escapeHtml(pos.description)}</p>
-          <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location || '')}</p>
+          ${locationHtml}
         </div>
-      </div>`
-      )
+      </div>`;
+      })
       .join('');
   }
 
@@ -386,37 +401,52 @@
       const heading = eduColumn.querySelector('.section-title');
       if (heading) heading.textContent = data.heading || 'EDUCATION';
 
-      const card = eduColumn.querySelector('.education-card');
-      if (card && data.entries && data.entries.length) {
-        const entry = data.entries[0]; // Primary entry
-        card.innerHTML = `
+      const renderEntryHtml = (e) => {
+        const dateRange = [e.startDate, e.endDate].filter(Boolean).join(' - ');
+        const gpaHtml = e.gpa ? `<span class="education-gpa"><i class="fas fa-graduation-cap"></i> GPA: ${escapeHtml(e.gpa)}</span>` : '';
+        const locationHtml = e.location ? `<p class="education-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(e.location)}</p>` : '';
+        return `
           <div class="education-header">
             <div>
-              <h3 class="education-title">${escapeHtml(entry.degree)}</h3>
-              <p class="education-school">${escapeHtml(entry.institution)}</p>
+              <h3 class="education-title">${escapeHtml(e.degree)}</h3>
+              <p class="education-school">${escapeHtml(e.institution)}</p>
             </div>
-            <span class="badge">${escapeHtml(entry.startDate || '')} - ${escapeHtml(entry.endDate || '')}</span>
+            <span class="badge">${escapeHtml(dateRange)}</span>
           </div>
-          <p class="education-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(entry.location || '')}</p>`;
+          ${locationHtml}
+          ${gpaHtml}`;
+      };
+
+      const card = eduColumn.querySelector('.education-card');
+      if (card && data.entries && data.entries.length) {
+        card.innerHTML = renderEntryHtml(data.entries[0]);
 
         // If multiple entries, append more
         if (data.entries.length > 1) {
+          let prev = card;
           data.entries.slice(1).forEach((e) => {
             const extraCard = document.createElement('div');
             extraCard.className = 'card education-card';
             extraCard.style.marginTop = '1rem';
-            extraCard.innerHTML = `
-              <div class="education-header">
-                <div>
-                  <h3 class="education-title">${escapeHtml(e.degree)}</h3>
-                  <p class="education-school">${escapeHtml(e.institution)}</p>
-                </div>
-                <span class="badge">${escapeHtml(e.startDate || '')} - ${escapeHtml(e.endDate || '')}</span>
-              </div>
-              <p class="education-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(e.location || '')}</p>`;
-            card.after(extraCard);
+            extraCard.innerHTML = renderEntryHtml(e);
+            prev.after(extraCard);
+            prev = extraCard;
           });
         }
+      }
+
+      // Certifications card
+      if (data.certifications && data.certifications.length) {
+        const certCard = document.createElement('div');
+        certCard.className = 'card education-card certifications-card';
+        certCard.style.marginTop = '1rem';
+        const certListHtml = data.certifications
+          .map((c) => `<li><i class="fas fa-certificate"></i> ${escapeHtml(c)}</li>`)
+          .join('');
+        certCard.innerHTML = `
+          <h3 class="education-title">Certifications</h3>
+          <ul class="certifications-list">${certListHtml}</ul>`;
+        eduColumn.appendChild(certCard);
       }
     }
 

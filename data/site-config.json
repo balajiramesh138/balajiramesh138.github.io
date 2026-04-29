@@ -1,12 +1,12 @@
 {
-  "siteName": "Balaji Ramesh | Junior Analyst (Merchant Risk)",
+  "siteName": "Balaji Ramesh | Data Engineer & Data Analyst",
   "theme": "light",
   "loaderInitials": [
     "B",
     "R"
   ],
-  "metaDescription": "Balaji Ramesh — Junior Analyst (Merchant Risk). Portfolio showcasing professional experience, skills, and projects.",
-  "metaKeywords": "Balaji Ramesh, Junior Analyst (Merchant Risk), Portfolio",
+  "metaDescription": "Balaji Ramesh — Data Engineer & Data Analyst. M.S. Data Science (UMass Dartmouth). AWS Certified Data Engineer. Portfolio of data pipelines, analytics, and ML projects.",
+  "metaKeywords": "Balaji Ramesh, Data Engineer, Data Analyst, Data Science, AWS, PySpark, Airflow, Snowflake, dbt, SQL, Python, Tableau, Power BI, Looker",
   "progressCheckpoints": [
     {
       "id": "hero",
@@ -23,6 +23,10 @@
     {
       "id": "skills",
       "label": "Skills"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
     },
     {
       "id": "contact",

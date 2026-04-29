@@ -1,6 +1,6 @@
 {
   "heading": "GET IN TOUCH",
-  "subheading": "Let's build something amazing together",
+  "subheading": "Open to Data Engineer & Data Analyst roles — let's talk pipelines, analytics, and insights.",
   "links": [
     {
       "icon": "fab fa-linkedin",
@@ -11,7 +11,7 @@
     {
       "icon": "fab fa-github",
       "label": "GitHub",
-      "url": "https://github.com/balajiramesh005",
+      "url": "https://github.com/balajiramesh138",
       "color": "#ffd93d"
     },
     {
@@ -19,8 +19,14 @@
       "label": "Email",
       "url": "mailto:balajiramesh005@gmail.com",
       "color": "#ff6b9d"
+    },
+    {
+      "icon": "fas fa-location-dot",
+      "label": "Boston, MA",
+      "url": "#",
+      "color": "#a8e6cf"
     }
   ],
   "email": "balajiramesh005@gmail.com",
-  "availability": "Open to opportunities"
+  "availability": "Open to Data Engineer / Data Analyst opportunities"
 }

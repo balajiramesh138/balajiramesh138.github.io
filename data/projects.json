@@ -2,8 +2,43 @@
   "heading": "Projects",
   "projects": [
     {
-      "name": "Master’s Capstone: CPU-Based 3D Reconstruction Pipeline using COLMAP & OpenMVS",
-      "description": "Developed a full photogrammetry pipeline for sparse and dense 3D reconstruction on a CPU-based environment. Rebuilt OpenMVS from source to resolve CUDA/GPU incompatibility. Automated the complete pipeline in Python from SIFT feature extraction to dense reconstruction, generating 417K+ point clouds from high-res images.",
+      "name": "End-to-End Data Pipeline: Snowflake + dbt + Tableau",
+      "description": "Modern data-stack pipeline ingesting raw operational data into Snowflake, transforming it through layered dbt models (staging → marts), and surfacing executive-level KPIs in Tableau dashboards. Demonstrates ELT best practices, source freshness checks, and tested SQL transformations.",
+      "technologies": [
+        "Snowflake",
+        "dbt",
+        "Tableau",
+        "SQL"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/end-to-end-pipeline-snowflake-dbt-tableau",
+      "githubUrl": "https://github.com/balajiramesh138/end-to-end-pipeline-snowflake-dbt-tableau"
+    },
+    {
+      "name": "Real-Time Stock Market Streaming Pipeline",
+      "description": "Streaming data pipeline ingesting live stock-market ticks via a Kafka producer, processing events through a Python consumer, and persisting to AWS S3 for downstream analytics. Built to mirror real-world low-latency market-data architecture.",
+      "technologies": [
+        "Python",
+        "Kafka",
+        "AWS S3",
+        "Pandas"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/realtime-stock-market-pipeline",
+      "githubUrl": "https://github.com/balajiramesh138/realtime-stock-market-pipeline"
+    },
+    {
+      "name": "Data Engineering Sandbox",
+      "description": "Hands-on sandbox exploring batch ingestion, ETL workflow orchestration, and containerized deployment. Used as a playground for testing pipeline patterns with Docker-isolated environments.",
+      "technologies": [
+        "Python",
+        "Docker",
+        "ETL"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/data-engineering-project",
+      "githubUrl": "https://github.com/balajiramesh138/data-engineering-project"
+    },
+    {
+      "name": "Master's Capstone — CPU-Based 3D Reconstruction Pipeline",
+      "description": "Full photogrammetry pipeline for sparse and dense 3D reconstruction using COLMAP (SfM) and OpenMVS (MVS) on a CPU-only environment. Rebuilt OpenMVS from source with OPENMVS_USE_CUDA=OFF to resolve GPU incompatibility, and automated the end-to-end Python workflow from SIFT feature extraction to dense reconstruction — generating 417K+ point clouds from 11 high-res Sceaux Castle images, validated with MeshLab and Open3D.",
       "technologies": [
         "Python",
         "COLMAP",
@@ -16,131 +51,62 @@
       "githubUrl": ""
     },
     {
-      "name": "data-engineering-project",
-      "description": "Personal project for exploring modern development practices",
+      "name": "Hospital Readmission Prediction",
+      "description": "Healthcare predictive-analytics project forecasting 30-day hospital readmission from patient demographic and clinical features. Includes EDA, feature engineering on imbalanced data, and comparison of classification models with ROC-AUC evaluation.",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "scikit-learn",
+        "Pandas",
+        "Jupyter"
       ],
-      "liveUrl": "https://github.com/balajiramesh138/data-engineering-project",
-      "githubUrl": "https://github.com/balajiramesh138/data-engineering-project"
-    },
-    {
-      "name": "realtime-stock-market-pipeline",
-      "description": "Practice application demonstrating full-stack development skills",
-      "technologies": [
-        "HTML",
-        "Python"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/realtime-stock-market-pipeline",
-      "githubUrl": "https://github.com/balajiramesh138/realtime-stock-market-pipeline"
-    },
-    {
-      "name": "greenpulse-energy-monitoring",
-      "description": "Modern web application demonstrating clean code principles",
-      "technologies": [
-        "TypeScript",
-        "Python"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring",
-      "githubUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring"
-    },
-    {
-      "name": "contribution-history",
-      "description": "Generated GitHub contribution history",
-      "technologies": [],
-      "liveUrl": "https://github.com/balajiramesh138/contribution-history",
-      "githubUrl": "https://github.com/balajiramesh138/contribution-history"
-    },
-    {
-      "name": "hospital_readmission_prediction",
-      "description": "Full-featured application built as a learning exercise",
-      "technologies": [],
       "liveUrl": "https://github.com/balajiramesh138/hospital_readmission_prediction",
       "githubUrl": "https://github.com/balajiramesh138/hospital_readmission_prediction"
     },
     {
-      "name": "end-to-end-pipeline-snowflake-dbt-tableau",
-      "description": "Modern web application demonstrating clean code principles",
-      "technologies": [],
-      "liveUrl": "https://github.com/balajiramesh138/end-to-end-pipeline-snowflake-dbt-tableau",
-      "githubUrl": "https://github.com/balajiramesh138/end-to-end-pipeline-snowflake-dbt-tableau"
-    },
-    {
-      "name": "DV-Activity-7",
-      "description": "GitHub repository: DV-Activity-7",
+      "name": "Diabetic Patient Prediction",
+      "description": "Classification model predicting diabetes onset from diagnostic measurements. Performed EDA, handled missing values, scaled features, and benchmarked Logistic Regression, Decision Tree and Random Forest performance.",
       "technologies": [
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/DV-Activity-7",
-      "githubUrl": "https://github.com/balajiramesh138/DV-Activity-7"
-    },
-    {
-      "name": "force-simulation",
-      "description": "GitHub repository: force-simulation",
-      "technologies": [
-        "Jupyter Notebook",
-        "JavaScript",
-        "HTML",
-        "CSS"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/force-simulation",
-      "githubUrl": "https://github.com/balajiramesh138/force-simulation"
-    },
-    {
-      "name": "Data-Viz-Activity-6",
-      "description": "GitHub repository: Data-Viz-Activity-6",
-      "technologies": [
-        "HTML",
-        "CSS"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/Data-Viz-Activity-6",
-      "githubUrl": "https://github.com/balajiramesh138/Data-Viz-Activity-6"
-    },
-    {
-      "name": "TSF-internship-tasks",
-      "description": "GitHub repository: TSF-internship-tasks",
-      "technologies": [
-        "Jupyter Notebook"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/TSF-internship-tasks",
-      "githubUrl": "https://github.com/balajiramesh138/TSF-internship-tasks"
-    },
-    {
-      "name": "traffic-sign-classification",
-      "description": "GitHub repository: traffic-sign-classification",
-      "technologies": [
-        "Python"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/traffic-sign-classification",
-      "githubUrl": "https://github.com/balajiramesh138/traffic-sign-classification"
-    },
-    {
-      "name": "Diabetic-patient-prediction",
-      "description": "GitHub repository: Diabetic-patient-prediction",
-      "technologies": [
-        "Jupyter Notebook"
+        "Python",
+        "scikit-learn",
+        "Pandas",
+        "Jupyter"
       ],
       "liveUrl": "https://github.com/balajiramesh138/Diabetic-patient-prediction",
       "githubUrl": "https://github.com/balajiramesh138/Diabetic-patient-prediction"
     },
     {
-      "name": "ML-project",
-      "description": "GitHub repository: ML-project",
+      "name": "GreenPulse — Energy Monitoring Analytics",
+      "description": "Energy-consumption analytics project tracking real-time usage patterns and surfacing anomalies through visual analytics, aimed at sustainability and efficiency insights for residential and commercial loads.",
       "technologies": [
-        "Python"
+        "Python",
+        "TypeScript",
+        "Time Series"
       ],
-      "liveUrl": "https://github.com/balajiramesh138/ML-project",
-      "githubUrl": "https://github.com/balajiramesh138/ML-project"
+      "liveUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring",
+      "githubUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring"
     },
     {
-      "name": "Data-Viz-Assignment-MA-Mapping",
-      "description": "GitHub repository: Data-Viz-Assignment-MA-Mapping",
-      "technologies": [],
+      "name": "Massachusetts Geographic Data Visualization",
+      "description": "Interactive choropleth map of Massachusetts visualizing demographic and economic indicators across counties. Built with D3.js using GeoJSON boundaries and joined tabular data for spatial analytics.",
+      "technologies": [
+        "D3.js",
+        "JavaScript",
+        "GeoJSON",
+        "Data Visualization"
+      ],
       "liveUrl": "https://github.com/balajiramesh138/Data-Viz-Assignment-MA-Mapping",
       "githubUrl": "https://github.com/balajiramesh138/Data-Viz-Assignment-MA-Mapping"
+    },
+    {
+      "name": "Force-Directed Network Visualization",
+      "description": "Interactive D3.js force-directed graph for exploring relational data, with dynamic node positioning, drag interaction and category-based coloring — useful for surfacing community structure in network datasets.",
+      "technologies": [
+        "D3.js",
+        "JavaScript",
+        "Data Visualization"
+      ],
+      "liveUrl": "https://github.com/balajiramesh138/force-simulation",
+      "githubUrl": "https://github.com/balajiramesh138/force-simulation"
     }
   ]
 }

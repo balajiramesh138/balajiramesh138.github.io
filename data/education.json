@@ -2,24 +2,27 @@
   "heading": "EDUCATION",
   "entries": [
     {
-      "degree": "Master of Science",
+      "degree": "M.S. in Data Science",
       "institution": "University of Massachusetts Dartmouth",
-      "startDate": "2025",
-      "endDate": "",
-      "gpa": "3.75/4.0",
+      "startDate": "2023",
+      "endDate": "May 2025",
+      "location": "North Dartmouth, MA, USA",
+      "gpa": "3.75 / 4.0",
       "honors": []
     },
     {
-      "degree": "Bachelor of Engineering",
-      "institution": "Acharya Institute of technology Banglore | India",
-      "startDate": "2021",
-      "endDate": "",
-      "gpa": "7.46/10",
+      "degree": "B.E. in Computer Science & Engineering",
+      "institution": "Acharya Institute of Technology",
+      "startDate": "2017",
+      "endDate": "July 2021",
+      "location": "Bangalore, India",
+      "gpa": "7.46 / 10",
       "honors": []
     }
   ],
   "certifications": [
-    "AWS Certified Data Engineer - Associate"
+    "AWS Certified Data Engineer – Associate (April 2025 – April 2028)"
   ],
   "languages": []
 }
+

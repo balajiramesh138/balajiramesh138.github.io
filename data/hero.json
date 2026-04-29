@@ -1,13 +1,13 @@
 {
   "greeting": "Hi there!",
   "name": "Balaji Ramesh",
-  "description": "Based in Boston, MA, I'm a Junior Analyst (Merchant Risk) with a passion for solving complex problems and delivering impactful solutions.",
-  "tagline": "Junior Analyst (Merchant Risk)",
-  "avatarUrl": "",
+  "description": "Boston-based Data Engineer & Data Analyst. M.S. Data Science (UMass Dartmouth) and AWS Certified Data Engineer. I build scalable pipelines, turn messy data into clear decisions, and ship analytics that move the business.",
+  "tagline": "Data Engineer & Data Analyst",
+  "avatarUrl": "assets/img/balaji.jpg",
   "socialLinks": [
     {
       "icon": "fab fa-github",
-      "url": "https://github.com/balajiramesh005",
+      "url": "https://github.com/balajiramesh138",
       "label": "GitHub"
     },
     {
@@ -27,101 +27,109 @@
       "label": "Python"
     },
     {
-      "icon": "fas fa-chart-line",
-      "label": "R"
-    },
-    {
       "icon": "fas fa-database",
       "label": "SQL"
     },
     {
-      "icon": "fas fa-microchip",
-      "label": "C++"
-    },
-    {
-      "icon": "fas fa-microchip",
-      "label": "C"
-    },
-    {
-      "icon": "fab fa-python",
-      "label": "Flask"
-    },
-    {
-      "icon": "fas fa-chart-line",
-      "label": "Streamlit"
-    },
-    {
-      "icon": "fas fa-chart-line",
+      "icon": "fas fa-bolt",
       "label": "PySpark"
+    },
+    {
+      "icon": "fas fa-wind",
+      "label": "Airflow"
+    },
+    {
+      "icon": "fab fa-aws",
+      "label": "AWS"
+    },
+    {
+      "icon": "fas fa-snowflake",
+      "label": "Snowflake"
+    },
+    {
+      "icon": "fas fa-stream"  ,
+      "label": "Kafka"
+    },
+    {
+      "icon": "fas fa-chart-pie",
+      "label": "Tableau"
+    },
+    {
+      "icon": "fas fa-chart-bar",
+      "label": "Power BI"
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "label": "Looker"
     }
   ],
   "terminalCommands": {
     "about": {
       "title": "About Me",
-      "content": "Junior Analyst (Merchant Risk) with 2+ years of experience building scalable web applications.",
+      "content": "Data Engineer & Analyst with 2+ years building production data pipelines and decision-grade analytics.",
       "highlights": [
-        "Working with Python",
-        "Working with R",
-        "Working with SQL"
+        "Pipelines in Python, SQL, PySpark, Airflow",
+        "Analytics on AWS, Snowflake, dbt",
+        "Dashboards in Tableau, Power BI, Looker"
       ]
     },
     "skills": [
       "Python",
-      "R",
       "SQL",
-      "C++",
-      "C",
-      "Flask",
-      "Streamlit",
+      "R",
       "PySpark",
       "Airflow",
-      "MySQL",
-      "Cassandra",
-      "HBase",
+      "Kafka",
       "Hadoop",
-      "Apache spark",
       "Hive",
-      "Kafka"
+      "AWS",
+      "Snowflake",
+      "dbt",
+      "Tableau",
+      "Power BI",
+      "Looker",
+      "Pandas",
+      "scikit-learn"
     ],
     "experience": [
       {
         "company": "Razorpay",
-        "title": "Junior Analyst (Merchant Risk)",
+        "title": "Data / Risk Analyst",
         "period": "Jan 2022 – June 2023",
-        "location": ""
+        "location": "Bengaluru, India"
       },
       {
         "company": "Technocolabs Softwares Inc.",
-        "title": "Machine learning Intern",
+        "title": "Machine Learning Intern",
         "period": "Oct 2020 – Jan 2021",
-        "location": ""
+        "location": "Bengaluru, India"
       }
     ],
     "education": [
       {
-        "degree": "Master of Science",
+        "degree": "M.S. Data Science",
         "institution": "University of Massachusetts Dartmouth",
         "period": "May 2025"
       },
       {
-        "degree": "Bachelor of Engineering",
-        "institution": "Acharya Institute of technology Banglore | India",
+        "degree": "B.E. Computer Science",
+        "institution": "Acharya Institute of Technology, Bangalore",
         "period": "July 2021"
       }
     ],
     "contact": {
       "email": "balajiramesh005@gmail.com",
       "website": "",
-      "github": "https://github.com/balajiramesh005",
+      "github": "https://github.com/balajiramesh138",
       "linkedin": "https://www.linkedin.com/in/balajiramesh005"
     }
   },
   "terminalLines": [
     "$ whoami",
-    "Balaji Ramesh",
-    "$ cat role.txt",
-    "Junior Analyst (Merchant Risk)",
-    "$ ls skills/",
-    "Python  R  SQL  C++  C"
+    "Balaji Ramesh — Data Engineer & Analyst",
+    "$ cat focus.txt",
+    "Pipelines · Analytics · Decisions",
+    "$ ls stack/",
+    "Python  SQL  PySpark  Airflow  AWS  Snowflake  dbt  Tableau"
   ]
 }

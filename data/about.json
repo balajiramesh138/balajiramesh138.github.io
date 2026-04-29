@@ -2,7 +2,7 @@
   "heading": "ABOUT",
   "paragraphs": [
     {
-      "text": "Highly motivated junior analyst (merchant risk) with {yearsExp} of hands-on experience delivering impactful solutions.",
+      "text": "Data Engineer & Data Analyst with {yearsExp} of hands-on experience designing pipelines, modeling data, and delivering analytics that drive real business decisions.",
       "highlights": [
         {
           "text": "2+ years",
@@ -12,22 +12,37 @@
       ]
     },
     {
-      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "text": "I work across the full data lifecycle — {blend1}, {blend2}, and {blend3} — with a strong bias toward measurable impact.",
       "highlights": [
         {
-          "text": "technical expertise",
+          "text": "ingestion & ETL with Python, SQL, PySpark and Airflow",
           "color": "yellow",
           "key": "blend1"
         },
         {
-          "text": "collaborative leadership",
+          "text": "modeling & warehousing on AWS, Snowflake and dbt",
           "color": "green",
           "key": "blend2"
         },
         {
-          "text": "building impactful solutions",
+          "text": "BI & visualization in Tableau, Power BI and Looker",
           "color": "cyan",
           "key": "blend3"
+        }
+      ]
+    },
+    {
+      "text": "Currently completing my {degree} and recently became {cert}.",
+      "highlights": [
+        {
+          "text": "M.S. in Data Science at UMass Dartmouth",
+          "color": "yellow",
+          "key": "degree"
+        },
+        {
+          "text": "AWS Certified Data Engineer – Associate",
+          "color": "green",
+          "key": "cert"
         }
       ]
     }

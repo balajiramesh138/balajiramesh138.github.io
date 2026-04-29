@@ -2197,3 +2197,202 @@ body[data-theme="dark"] .highlight-green {
   font-size: 0.8rem;
   opacity: 0.5;
 }
+
+/* ---------- Hero Photo (right column) ---------- */
+.hero-image-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Hide orphan decorative SVGs that have no CSS layout */
+.hero-image-wrapper .deco-code,
+.hero-image-wrapper .deco-terminal,
+.hero-image-wrapper .deco-floppy,
+.hero-image-wrapper .deco-label {
+  display: none;
+}
+
+.hero-photo {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 4px solid var(--border, #000);
+  box-shadow: 10px 10px 0 var(--border, #000);
+  background: var(--white, #fff);
+  display: block;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-photo:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 13px 13px 0 var(--border, #000);
+}
+
+.hero-avatar-placeholder {
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  background: var(--yellow, #ffd93d);
+  border: 4px solid var(--border, #000);
+  box-shadow: 10px 10px 0 var(--border, #000);
+}
+
+@media (max-width: 700px) {
+  .hero-photo,
+  .hero-avatar-placeholder {
+    max-width: 280px;
+    box-shadow: 7px 7px 0 var(--border, #000);
+  }
+}
+
+/* ---------- Journey Timeline (flat variant rendered by JS) ---------- */
+.timeline-item-flat {
+  display: grid;
+  grid-template-columns: 16px 72px 1fr;
+  gap: 1.25rem;
+  align-items: flex-start;
+  position: relative;
+}
+
+.timeline-item-flat .timeline-dot {
+  margin-top: 1.25rem;
+}
+
+.timeline-logo {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white, #fff);
+  border: 3.5px solid var(--border, #000);
+  box-shadow: 5px 5px 0 var(--border, #000);
+  padding: 0.55rem;
+  flex-shrink: 0;
+  margin-top: 0.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-item-flat:hover .timeline-logo {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--border, #000);
+}
+
+.timeline-logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.timeline-logo-monogram {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  color: var(--white, #fff);
+  line-height: 1;
+}
+
+.timeline-content-flat {
+  background: var(--white, #fff);
+  border: 3.5px solid var(--border, #000);
+  box-shadow: 6px 6px 0 var(--border, #000);
+  padding: 1.5rem 1.75rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-item-flat:hover .timeline-content-flat {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 var(--border, #000);
+}
+
+.timeline-content-flat .timeline-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.timeline-content-flat .timeline-date {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+}
+
+.timeline-content-flat .timeline-description {
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 700px) {
+  .timeline-item-flat {
+    grid-template-columns: 16px 1fr;
+    gap: 0.85rem;
+  }
+  .timeline-logo {
+    grid-column: 2;
+    width: 56px;
+    height: 56px;
+    margin-bottom: 0.5rem;
+  }
+  .timeline-content-flat {
+    grid-column: 2;
+    padding: 1.1rem 1.25rem;
+  }
+}
+
+/* ---------- Education GPA & Certifications (additions) ---------- */
+.education-gpa {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--yellow, #ffd93d);
+  border: 2.5px solid var(--border, #000);
+  box-shadow: 3px 3px 0 var(--border, #000);
+  font-family: "Space Mono", monospace;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.certifications-card .education-title {
+  margin-bottom: 0.75rem;
+}
+
+.certifications-card .certifications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.certifications-card .certifications-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0.8rem;
+  background: var(--white, #fff);
+  border: 2.5px solid var(--border, #000);
+  box-shadow: 3px 3px 0 var(--border, #000);
+  font-family: "Space Mono", monospace;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.certifications-card .certifications-list li i {
+  color: var(--yellow, #ffd93d);
+}

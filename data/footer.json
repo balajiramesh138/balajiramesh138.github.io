@@ -1,6 +1,6 @@
 {
   "brandName": "BALAJI RAMESH",
-  "brandTitle": "Junior Analyst (Merchant Risk)",
+  "brandTitle": "Data Engineer & Data Analyst",
   "navLinks": [
     {
       "label": "Home",
@@ -17,12 +17,16 @@
     {
       "label": "Skills",
       "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
     }
   ],
   "socialLinks": [
     {
       "icon": "fab fa-github",
-      "url": "https://github.com/balajiramesh005",
+      "url": "https://github.com/balajiramesh138",
       "label": "GitHub"
     },
     {
