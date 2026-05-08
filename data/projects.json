@@ -84,29 +84,6 @@
       ],
       "liveUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring",
       "githubUrl": "https://github.com/balajiramesh138/greenpulse-energy-monitoring"
-    },
-    {
-      "name": "Massachusetts Geographic Data Visualization",
-      "description": "Interactive choropleth map of Massachusetts visualizing demographic and economic indicators across counties. Built with D3.js using GeoJSON boundaries and joined tabular data for spatial analytics.",
-      "technologies": [
-        "D3.js",
-        "JavaScript",
-        "GeoJSON",
-        "Data Visualization"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/Data-Viz-Assignment-MA-Mapping",
-      "githubUrl": "https://github.com/balajiramesh138/Data-Viz-Assignment-MA-Mapping"
-    },
-    {
-      "name": "Force-Directed Network Visualization",
-      "description": "Interactive D3.js force-directed graph for exploring relational data, with dynamic node positioning, drag interaction and category-based coloring — useful for surfacing community structure in network datasets.",
-      "technologies": [
-        "D3.js",
-        "JavaScript",
-        "Data Visualization"
-      ],
-      "liveUrl": "https://github.com/balajiramesh138/force-simulation",
-      "githubUrl": "https://github.com/balajiramesh138/force-simulation"
     }
   ]
 }
